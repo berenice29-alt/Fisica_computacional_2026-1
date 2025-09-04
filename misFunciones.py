@@ -33,7 +33,7 @@ def isPrime(number: int) -> bool:
         print("Error de tipo:", e)
         return False
     finally:
-        print(f"Se intentó verificar si {number} es primo.")
+        #print(f"Se intentó verificar si {number} es primo.")
 
 
 def myFactorial(number: int) -> int:
