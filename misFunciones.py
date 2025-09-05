@@ -32,7 +32,7 @@ def isPrime(number: int) -> bool:
     except TypeError as e:
         print("Error de tipo:", e)
         return False
-    finally:
+    #finally:
         #print(f"Se intentó verificar si {number} es primo.")
 
 
@@ -67,8 +67,8 @@ def myFactorial(number: int) -> int:
     except (TypeError, ValueError) as e:
         print("Error en factorial:", e)
         return None
-    finally:
-        print(f"Se intentó calcular el factorial de {number}.")
+    #finally:
+        #print(f"Se intentó calcular el factorial de {number}.")
 
 def exponencial_taylor(x: float, tol: float = None) -> float:
     """
